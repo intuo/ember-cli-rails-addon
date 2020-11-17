@@ -14,7 +14,6 @@ module.exports = {
   },
 
   included: function(app) {
-    app.options.storeConfigInMeta = false;
     app.options.fingerprint = app.options.fingerprint || {};
     app.options.fingerprint.generateAssetMap = true;
 
